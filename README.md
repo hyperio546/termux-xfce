@@ -16,7 +16,7 @@ run `chmod +x theme.sh && ./theme.sh` which will install the following themes: <
 - Layan gtk theme
 - Papirus icon theme
 - Tela circle icon theme <br>
-You should see a folder in the home directory called "themes" which has the required files for the themes
+You should see a folder in the home directory called "themes-termux-xfce" which has the required files for the themes
 # Screenshots
 <img src="pic1.jpg"> <br>
 <img src="pic2.jpg">
