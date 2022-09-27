@@ -16,4 +16,9 @@ run `chmod +x theme.sh && ./theme.sh` which will install the following themes: <
 - Layan gtk theme
 - Papirus icon theme
 - Tela circle icon theme
+# Screenshots
+![](resources/pic1.png) <br>
+![](resources/pic2.png)
+<br>
+<br>
 Any issues are welcome for improvement!
