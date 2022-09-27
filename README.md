@@ -17,8 +17,8 @@ run `chmod +x theme.sh && ./theme.sh` which will install the following themes: <
 - Papirus icon theme
 - Tela circle icon theme
 # Screenshots
-![](pic1.png) <br>
-![](pic2.png)
+<img src="pic1.jpg"> <br>
+<img src="pic2.jpg">
 <br>
 <br>
 Any issues are welcome for improvement!
