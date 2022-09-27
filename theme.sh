@@ -2,6 +2,8 @@
 cd
 mkdir themes-termux-xfce
 cd themes-termux-xfce
+echo "Installing themes!"
+apt install gtk2-engines-murrine -y
 git clone https://github.com/vinceliuice/Orchis-theme
 cd Orchis-theme
 ./install.sh

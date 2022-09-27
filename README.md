@@ -10,4 +10,10 @@ Type `localhost:1` in the connection, and then put the password you chose earlie
 # How to start and stop the server <br>
 `vncserver` to start <br>
 `vncserver -kill :1` to stop <br><br>
+# How do I make it look better?
+run `chmod +x theme.sh && ./theme.sh` which will install the following themes: <br>
+- Orchis gtk theme
+- Layan gtk theme
+- Papirus icon theme
+- Tela circle icon theme
 Any issues are welcome for improvement!
