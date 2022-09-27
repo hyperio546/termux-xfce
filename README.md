@@ -19,7 +19,7 @@ run `chmod +x theme.sh && ./theme.sh` which will install the following themes: <
 <br>
 You should see a folder in the home directory called "themes" which has the required files for the themes
 <br><br>
-# Screenshots
+# Screenshots <br>
 <img src="pic1.jpg"> <br>
 <img src="pic2.jpg">
 <br>
