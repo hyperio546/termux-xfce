@@ -14,3 +14,4 @@ apt install papirus-icon-theme
 git clone https://github.com/btrtech/Layan-gtk-theme
 cd Layan-gtk-theme
 ./install.sh
+echo "Themes are installed now!"

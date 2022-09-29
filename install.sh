@@ -12,7 +12,7 @@ startxfce4 &" > /data/data/com.termux/files/home/.vnc/xstartup # sets up vncserv
 chmod +x /data/data/com.termux/files/home/.vnc/xstartup # makes xstartup executable
 echo -e "\033[1mXFCE has been installed!\033[0m"
 vncserver -kill :1
-#Installimg apps for optimal experience
+#Installing apps for optimal experience
 echo -e "\033[1mInstalling 2 more apps for an optimal experience\033[0m"
 echo -e "\033[1mInstalling Otter Browser\033[0m"
 apt install otter-browser -y
