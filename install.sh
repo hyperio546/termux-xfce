@@ -6,12 +6,14 @@ pkg update -y
 pkg install x11-repo -y
 pkg install xfce4 tigervnc -y
 #Configuring it
+clear
 echo -e "\033[1mLet's setup vnc server now. It will ask for a password. Press n when asked for a readonly password\033[0m"
 vncserver && echo "#!/data/data/com.termux/files/usr/bin/bash
 startxfce4 &" > /data/data/com.termux/files/home/.vnc/xstartup # sets up vncserver and writes xstartup
 chmod +x /data/data/com.termux/files/home/.vnc/xstartup # makes xstartup executable
 echo -e "\033[1mXFCE has been installed!\033[0m"
 vncserver -kill :1
+clear
 #Installing apps for optimal experience
 echo -e "\033[1mInstalling 2 more apps for an optimal experience\033[0m"
 echo -e "\033[1mInstalling Otter Browser\033[0m"
