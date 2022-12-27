@@ -14,7 +14,7 @@ Type `localhost:1` in the connection, and then put the password you chose earlie
 # How to start and stop the server <br>
 `vncserver` to start <br>
 `vncserver -kill :1` to stop <br><br>
-# How do I make it look better?
+# (WIP) How do I make it look better?
 run 
 ```
 wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/theme.sh" && chmod +x theme.sh && ./theme.sh
