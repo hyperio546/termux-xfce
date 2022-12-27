@@ -17,6 +17,8 @@ run `wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/theme.sh"
 - Papirus icon theme
 - Tela circle icon theme <br>
 You should see a folder in the home directory called "themes-termux-xfce" which has the required files for the themes.
+# Uninstallation
+- Run: `wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/uninstall.sh" && chmod +x uninstall.sh && ./uninstall.sh` to undo all the changes done.
 # Screenshots
 <img src="pic1.jpg"> <br>
 <img src="pic2.jpg">
