@@ -20,8 +20,8 @@ Type `localhost:1` in the connection, and then put the password you chose earlie
 wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/theme.sh" && chmod +x theme.sh && ./theme.sh
 ```
 Which will install the following themes: <br>
-- Orchis gtk theme
-- Layan gtk theme
+- Orchis GTK theme
+- Layan GTK theme
 - Papirus icon theme
 - Tela circle icon theme <br>
 You should see a folder in the home directory called "themes-termux-xfce" which has the required files for the themes.
