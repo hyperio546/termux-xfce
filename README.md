@@ -1,9 +1,9 @@
 # Termux XFCE <br>
-I give you....Termux with a gui! <br>
-Termux does support a gui (XFCE and LXQT mainly) <br>
-XFCE being one of the most rich and best DEs, I decided to make a script that can install XFCE on Termux without any modifications! <br>
+I give you...Termux with a GUI! <br>
+Termux does support a GUI (XFCE and LXQT mainly) <br>
+XFCE being one of the most customisable and best DEs, I decided to make a script that can install XFCE on Termux without any modifications! <br>
 # How to install? <br>
-Just run 
+* Just run:
 ```
 apt install wget -y && wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/install.sh" && chmod +x install.sh && ./install.sh
 ``` 
@@ -15,11 +15,11 @@ Type `localhost:1` in the connection, and then put the password you chose earlie
 `vncserver` to start <br>
 `vncserver -kill :1` to stop <br><br>
 # How do I make it look better?
-run 
+* Run:
 ```
 wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/theme.sh" && chmod +x theme.sh && ./theme.sh
 ```
-which will install the following themes: <br>
+Which will install the following themes: <br>
 - Orchis gtk theme
 - Layan gtk theme
 - Papirus icon theme
