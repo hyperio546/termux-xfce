@@ -5,7 +5,7 @@ XFCE being one of the most customisable and best DEs, I decided to make a script
 # How to install? <br>
 * Just run:
 ```
-apt install wget -y && wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/install.sh" && chmod +x install.sh && ./install.sh
+apt install wget -y && wget "https://raw.githubusercontent.com/hyperio546/termux-xfce/main/install.sh" && chmod +x install.sh && ./install.sh
 ``` 
 and follow the steps! <br>
 # How to access the GUI? <br>
@@ -17,7 +17,7 @@ Type `localhost:1` in the connection, and then put the password you chose earlie
 # How do I make it look better?
 * Run:
 ```
-wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/theme.sh" && chmod +x theme.sh && ./theme.sh
+wget "https://raw.githubusercontent.com/hyperio546/termux-xfce/main/theme.sh" && chmod +x theme.sh && ./theme.sh
 ```
 Which will install the following themes: <br>
 - Orchis GTK theme
@@ -28,7 +28,7 @@ You should see a folder in the home directory called "themes-termux-xfce" which 
 # Uninstallation
 - Run: 
 ```
-wget "https://raw.githubusercontent.com/neoteche/termux-xfce/main/uninstall.sh" && chmod +x uninstall.sh && ./uninstall.sh
+wget "https://raw.githubusercontent.com/hyperio546/termux-xfce/main/uninstall.sh" && chmod +x uninstall.sh && ./uninstall.sh
 ```
 to undo all the changes done.
 # Screenshots
