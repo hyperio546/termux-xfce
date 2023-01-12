@@ -27,11 +27,17 @@ mkdir Documents
 mkdir Pictures
 mkdir Music
 mkdir Videos
-echo -e "\033[1mType vncserver to start and vncserver -kill :1 to stop\033[0m"
+echo -e "\033[1mConfiguring scripts...\033[0m"
 cd
 touch .bashrc
-echo export PATH="~/.vnc/:$PATH" > .bashrc
 cd termux-xfce
 mv startvnc.sh stopvnc.sh ..
 cd ..
 mv startvnc.sh stopvnc.sh ~/.vnc
+if [ echo $SHELL = /data/data/com.termux/files/usr/bin/fish ]
+then  
+    fish_add_path ~/.vnc
+else
+    echo export PATH="~/.vnc/:$PATH" > .bashrc
+fi
+echo -e "\033[1mType vncserver to start and vncserver -kill :1 to stop\033[0m" 
