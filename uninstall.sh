@@ -6,7 +6,7 @@ apt remove x11-repo -y
 apt autoremove -y
 apt clean
 apt autoclean
-echo -e "\033[1mRemoving directories\033[0m"
+echo -e "\033[1mRemoving directories...\033[0m"
 cd
 rm -rf themes-termux-xfce/
 rm -rf .vnc/
