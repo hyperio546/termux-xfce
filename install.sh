@@ -34,7 +34,7 @@ cd termux-xfce
 mv startvnc.sh stopvnc.sh ..
 cd ..
 mv startvnc.sh stopvnc.sh ~/.vnc
-if [echo $SHELL = /data/data/com.termux/files/usr/bin/fish]
+if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/fish" ]
 then  
     fish_add_path ~/.vnc
 else
