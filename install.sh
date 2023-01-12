@@ -21,4 +21,10 @@ echo -e "\033[1mInstalling XFCE Terminal Emulator\033[0m"
 apt install xfce4-terminal -y
 echo -e "\033[1mInstalling Parole Media Player\033[0m"
 apt install parole -y
+echo -e "\033[1mCreating directories...\033[0m"
+mkdir Downloads
+mkdir Documents
+mkdir Pictures
+mkdir Music
+mkdir Videos
 echo -e "\033[1mType vncserver to start and vncserver -kill :1 to stop\033[0m"
