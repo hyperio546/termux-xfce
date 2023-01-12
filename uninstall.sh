@@ -1,3 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
 clear
 echo -e "\033[1mUndoing all changes...\033[0m"
 echo -e "\033[1mRemoving packages...\033[0m"
