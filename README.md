@@ -37,4 +37,5 @@ to undo all the changes done.
 <img src="images/pic1.jpg">
 <br>
 <br>
-Any issues are welcome for improvement!
+Any issues are welcome for improvement! <br>
+A lot of effort was put into this!
