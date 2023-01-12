@@ -31,8 +31,6 @@ You should see a folder in the home directory called "themes-termux-xfce" which 
 git clone https://github.com/hyperio546/termux-xfce && cd termux-xfce && ./uninstall.sh
 ```
 to undo all the changes done.
-# If you use fish
-- Also run: `fish_add_path ~/.vnc`
 # Screenshots
 <img src="images/pic3.jpg"> <br>
 <img src="images/pic2.jpg">
