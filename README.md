@@ -12,8 +12,8 @@ and follow the steps! <br>
 Just install "VNC Viewer" from Play Store (or BVNC for advanced users) <br>
 Type `localhost:1` in the connection, and then put the password you chose earlier and then login!
 # How to start and stop the server <br>
-`vncserver` to start <br>
-`vncserver -kill :1` to stop <br><br>
+`startvnc.sh` to start <br>
+`stopvnc.sh` to stop <br><br>
 # How do I make it look better?
 * Run:
 ```
