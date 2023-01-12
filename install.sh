@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 clear
 echo -e "\033[1mInstalling packages please wait! Install time will depend on your device and network speed.\033[0m"
-# upgrade for latest packages
+# Upgrade for latest packages
 pkg upgrade -y
 pkg install x11-repo -y
 pkg install xfce4 tigervnc pulseaudio xfce4-goodies -y
@@ -31,8 +31,6 @@ echo -e "\033[1mConfiguring scripts...\033[0m"
 cd
 touch .bashrc
 cd termux-xfce
-mv startvnc.sh stopvnc.sh ..
-cd ..
 mv startvnc.sh stopvnc.sh ~/.vnc
 if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/fish" ]
 then  
@@ -41,3 +39,4 @@ else
     echo export PATH="~/.vnc/:$PATH" > .bashrc
 fi
 echo -e "\033[1mType vncserver to start and vncserver -kill :1 to stop\033[0m" 
+cd
