@@ -9,7 +9,7 @@ pkg install xfce4 tigervnc pulseaudio -y
 clear
 echo -e "\033[1mLet's setup the VNC Server now. It will ask for a password. Put n and then press enter when asked for a read-only password\033[0m"
 vncserver && vncserver -kill :1 && echo "#!/data/data/com.termux/files/usr/bin/bash
-startxfce4 & pulseaudio --start --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" --exit-idle-time=-1" > /data/data/com.termux/files/home/.vnc/xstartup # sets up vncserver and writes xstartup
+startxfce4 &" > /data/data/com.termux/files/home/.vnc/xstartup # sets up vncserver and writes xstartup
 chmod +x /data/data/com.termux/files/home/.vnc/xstartup # makes xstartup executable
 echo -e "\033[1mXFCE has been installed!\033[0m"
 clear
@@ -28,3 +28,10 @@ mkdir Pictures
 mkdir Music
 mkdir Videos
 echo -e "\033[1mType vncserver to start and vncserver -kill :1 to stop\033[0m"
+cd
+touch .bashrc
+echo export PATH="~/.vnc/:$PATH" > .bashrc
+cd termux-xfce
+mv startvnc.sh stopvnc.sh ..
+cd ..
+mv startvnc.sh stopvnc.sh ~/.vnc
