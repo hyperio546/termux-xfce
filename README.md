@@ -32,8 +32,9 @@ wget "https://raw.githubusercontent.com/hyperio546/termux-xfce/main/uninstall.sh
 ```
 to undo all the changes done.
 # Screenshots
-<img src="pic1.jpg"> <br>
-<img src="pic2.jpg">
+<img src="images/pic3.jpg"> <br>
+<img src="images/pic2.jpg">
+<img src="images/pic1.jpg">
 <br>
 <br>
 Any issues are welcome for improvement!
