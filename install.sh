@@ -32,7 +32,7 @@ echo -e "\033[1mConfiguring scripts...\033[0m"
 cd
 mkdir .termux-xfce
 cd termux-xfce
-mv startvnc stopvnc ~/.termux-xfce
+cp startvnc stopvnc ~/.termux-xfce
 cd
 if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/fish" ]
 then  
