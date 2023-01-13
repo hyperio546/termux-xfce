@@ -26,3 +26,4 @@ rm -rf Desktop/
 rm -rf ~/.local/share/icons/
 rm -rf .cache/
 rm -rf .bashrc
+rm -rf .termux-xfce/
