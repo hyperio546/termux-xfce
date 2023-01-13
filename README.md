@@ -12,8 +12,10 @@ and follow the steps! <br>
 Just install "VNC Viewer" from Play Store (or BVNC for advanced users) <br>
 Type `localhost:1` in the connection, and then put the password you chose earlier and then login!
 # How to start and stop the server <br>
-`startvnc.sh` to start <br>
-`stopvnc.sh` to stop <br><br>
+`startvnc` to start <br>
+`stopvnc` to stop <br><br>
+# How do I control audio volume?
+Open up pavucontrol-qt from the menu system and control audio volume using it.
 # How do I make it look better?
 * Run:
 ```
