@@ -22,6 +22,7 @@ apt install xfce4-terminal -y
 echo -e "\033[1mInstalling Parole Media Player\033[0m"
 apt install parole -y
 echo -e "\033[1mCreating directories...\033[0m"
+cd
 mkdir Downloads
 mkdir Documents
 mkdir Pictures
@@ -32,6 +33,7 @@ cd
 mkdir .termux-xfce
 cd termux-xfce
 mv startvnc stopvnc ~/.termux-xfce
+cd
 if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/fish" ]
 then  
     fish_add_path ~/.termux-xfce
