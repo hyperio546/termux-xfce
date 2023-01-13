@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 clear
-echo -e "\033[1mInstalling packages please wait! Install time will depend on your device and network speed.\033[0m"
+echo -e "\033[1mInstalling packages, please wait! Install time will depend on your device and network speed.\033[0m"
 # Upgrade for latest packages
 pkg upgrade -y
 pkg install x11-repo -y
