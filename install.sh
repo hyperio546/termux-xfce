@@ -4,7 +4,7 @@ echo -e "\033[1mInstalling packages, please wait! Install time will depend on yo
 # Upgrade for latest packages
 pkg upgrade -y
 pkg install x11-repo -y
-pkg install xfce4 tigervnc pulseaudio xfce4-goodies -y
+pkg install xfce4 tigervnc pulseaudio xfce4-goodies pavucontrol-qt -y
 # Configuring it
 clear
 echo -e "\033[1mLet's setup the VNC Server now. It will ask for a password. Put n and then press enter when asked for a read-only password\033[0m"
