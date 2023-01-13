@@ -29,13 +29,20 @@ mkdir Music
 mkdir Videos
 echo -e "\033[1mConfiguring scripts...\033[0m"
 cd
-touch .bashrc
+mkdir .termux-xfce
 cd termux-xfce
-mv startvnc stopvnc ~/.vnc
+mv startvnc stopvnc ~/.termux-xfce
 if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/fish" ]
 then  
-    fish_add_path ~/.vnc
-else
-    echo export PATH="~/.vnc/:$PATH" > .bashrc
+    fish_add_path ~/.termux-xfce
+fi
+if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/bash" ]
+then  
+    touch .bashrc
+    echo export PATH="~/.termux-xfce/:$PATH" > .bashrc
+fi
+if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/zsh" ]
+then  
+    echo export PATH="~/.termux-xfce/:$PATH" > .zshrc
 fi
 echo -e "\033[1mRestart Termux and then type startvnc to start the server and stopvnc to stop it.\033[0m"
