@@ -38,5 +38,4 @@ then
 else
     echo export PATH="~/.vnc/:$PATH" > .bashrc
 fi
-echo -e "\033[1mRestart Termux and then type startvnc to start the server and stopvnc to stop it.\033[0m" 
-cd
+echo -e "\033[1mRestart Termux and then type startvnc to start the server and stopvnc to stop it.\033[0m"
