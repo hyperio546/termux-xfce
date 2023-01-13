@@ -31,12 +31,12 @@ echo -e "\033[1mConfiguring scripts...\033[0m"
 cd
 touch .bashrc
 cd termux-xfce
-mv startvnc.sh stopvnc.sh ~/.vnc
+mv startvnc stopvnc ~/.vnc
 if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/fish" ]
 then  
     fish_add_path ~/.vnc
 else
     echo export PATH="~/.vnc/:$PATH" > .bashrc
 fi
-echo -e "\033[1mType vncserver to start and vncserver -kill :1 to stop\033[0m" 
+echo -e "\033[1mRestart Termux and then type startvnc to start the server and stopvnc to stop it.\033[0m" 
 cd
