@@ -5,7 +5,7 @@ XFCE being one of the most customisable and best DEs, I decided to make a script
 # How to install? <br>
 * Just run:
 ```
-apt install git -y && git clone https://github.com/hyperio546/termux-xfce && cd termux-xfce && ./install.sh
+apt install git -y && git clone https://github.com/coderx546/termux-xfce && cd termux-xfce && ./install.sh
 ``` 
 and follow the steps! <br>
 # How to access the GUI? <br>
@@ -17,9 +17,9 @@ Type `localhost:1` in the connection, and then put the password you chose earlie
 # How do I control audio volume?
 Open up pavucontrol-qt from the menu system and control audio volume using it.
 # How do I make it look better?
-* Run:
+* Run (Considering you didn't remove the directory):
 ```
-git clone https://github.com/hyperio546/termux-xfce && cd termux-xfce && ./theme.sh
+cd && cd termux-xfce && ./theme.sh
 ```
 Which will install the following themes: <br>
 - Orchis GTK theme
@@ -30,7 +30,7 @@ You should see a folder in the home directory called "themes-termux-xfce" which 
 # Uninstallation
 - Run: 
 ```
-git clone https://github.com/hyperio546/termux-xfce && cd termux-xfce && ./uninstall.sh
+cd && cd termux-xfce && ./uninstall.sh
 ```
 to undo all the changes done.
 # Screenshots
