@@ -1,3 +1,4 @@
+# **I don't have the time nor the resources anymore to continue working on new features, and there is no roadmap for this project's future currently. However, forks and pull requests are most welcome!**
 # Termux XFCE <br>
 I give you...Termux with a GUI! <br>
 Termux does support a GUI (XFCE and LXQT mainly) <br>
