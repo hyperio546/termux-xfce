@@ -1,7 +1,7 @@
-# **I don't have the time nor the resources anymore to continue working on new features, and there is no roadmap for this project's future currently. However, forks and pull requests are most welcome!**
+# **Project is back in business! Give me ideas because I am working on improving this project!**
 # Termux XFCE <br>
 I give you...Termux with a GUI! <br>
-Termux does support a GUI (XFCE and LXQT mainly) <br>
+Termux does support a GUI (like GNOME, KDE, XFCE, LXDE, LXQT) <br>
 XFCE being one of the most customisable and best DEs, I decided to make a script that can install XFCE on Termux without any modifications! <br>
 # How to install? <br>
 * Just run:
