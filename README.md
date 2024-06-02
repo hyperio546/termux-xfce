@@ -6,7 +6,7 @@ XFCE being one of the most customisable and best DEs, I decided to make a script
 # How to install? <br>
 * Just run:
 ```
-apt install git -y && git clone https://github.com/hyperio546/termux-xfce && cd termux-xfce && ./install.sh
+apt install git -y && git clone https://github.com/hyperio546/termux-xfce-mobilized && cd termux-xfce && ./install.sh
 ``` 
 and follow the steps! <br>
 # How to access the GUI? <br>
