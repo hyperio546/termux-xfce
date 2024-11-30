@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-cd
 mkdir themes-termux-xfce
 cd themes-termux-xfce
 echo "Installing themes!"
@@ -17,4 +16,4 @@ git clone https://github.com/vinceliuice/Layan-gtk-theme
 cd Layan-gtk-theme
 ./install.sh
 cd
-echo "Themes are installed now!"
+echo -e "\033[1mThemes installed.\033[0m"
