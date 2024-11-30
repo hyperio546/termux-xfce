@@ -1,4 +1,7 @@
-# **Project is back in business! Give me ideas because I am working on improving this project!**
+# **Big changes!!**
+- New extras.sh with a basic Windows-like layout, themes and icons!
+- Updated dependencies and tested recently on my new phone!
+- Currently working on making the uninstaller better.
 # Termux XFCE <br>
 I give you...Termux with a GUI! <br>
 Termux does support a GUI (like GNOME, KDE, XFCE, LXDE, LXQT) <br>
