@@ -13,8 +13,8 @@ apt install git -y && git clone https://github.com/hyperio546/termux-xfce && cd 
 ``` 
 and follow the steps! <br>
 # How to access the GUI? <br>
-Just install "VNC Viewer" from Play Store (or BVNC for advanced users) <br>
-Type `localhost:1` in the connection, and then put the password you chose earlier and then login!
+Just install "AVNC" from Play Store <br>
+Type `localhost:1` in the connection, and then put the password you chose earlier (leave the other directories empty they are not important) and then login!
 # How to start and stop the server <br>
 `startvnc` to start <br>
 `stopvnc` to stop <br><br>
@@ -23,14 +23,15 @@ Open up pavucontrol-qt from the menu system and control audio volume using it.
 # How do I make it look better?
 * Run (Considering you didn't remove the directory):
 ```
-cd && cd termux-xfce && ./theme.sh
+cd && cd termux-xfce && ./extras.sh
 ```
 Which will install the following themes: <br>
 - Orchis GTK theme
 - Layan GTK theme
 - Papirus icon theme
-- Tela circle icon theme <br>
-You should see a folder in the home directory called "themes-termux-xfce" which has the required files for the themes.
+- Tela circle icon theme 
+- Along with my custom desktop layout and settings <br>
+You should see a folder called "themes-termux-xfce" which has the required files for the themes.
 # Uninstallation
 - Run: 
 ```
