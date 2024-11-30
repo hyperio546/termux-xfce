@@ -1,13 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
 clear
 echo -e "\033[1mInstalling packages, please wait! Install time will depend on your device and network speed.\033[0m"
-# Upgrade for latest packages
+# Upgrade for latest packages and install relevant packages
 pkg upgrade -y
 pkg install x11-repo -y
 pkg install xfce4 tigervnc pulseaudio xfce4-goodies pavucontrol-qt -y
 # Configuring it
 clear
-echo -e "\033[1mLet's setup the VNC Server now. It will ask for a password. Put n and then press enter when asked for a view-only password\033[0m"
+echo -e "\033[1mLet's setup the VNC server now. It will ask for a password. Put "n" and then press enter when asked for a view-only password\033[0m"
 vncserver && vncserver -kill :1 && echo "#!/data/data/com.termux/files/usr/bin/bash
 startxfce4 &" > /data/data/com.termux/files/home/.vnc/xstartup # sets up vncserver and writes xstartup
 chmod +x /data/data/com.termux/files/home/.vnc/xstartup # makes xstartup executable
@@ -47,4 +47,5 @@ if [ "$SHELL" == "/data/data/com.termux/files/usr/bin/zsh" ]
 then  
     echo export PATH="~/.termux-xfce/:$PATH" > .zshrc
 fi
+echo -e "\033[1mRun extras.sh if you want a preconfigured desktop layout with themes!\033[0m"
 echo -e "\033[1mRestart Termux and then type startvnc to start the server and stopvnc to stop it.\033[0m"
