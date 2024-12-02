@@ -1,7 +1,6 @@
-# **Big changes!!**
-- New extras.sh with a basic Windows-like layout, themes and icons!
+# **Updates:**
 - Updated dependencies and tested recently on my new phone!
-- Currently working on making the uninstaller better.
+- Currently working on premade xfce config for a more Windows-like experience  
 # Termux XFCE <br>
 I give you...Termux with a GUI! <br>
 Termux does support a GUI (like GNOME, KDE, XFCE, LXDE, LXQT) <br>
@@ -17,7 +16,7 @@ Just install "AVNC" from Play Store <br>
 Type `localhost:1` in the connection, and then put the password you chose earlier (leave the other directories empty they are not important) and then login!
 # How to start and stop the server <br>
 `startvnc` to start <br>
-`stopvnc` to stop <br><br>
+`stopvnc` to stop <br>
 # How do I control audio volume?
 Open up pavucontrol-qt from the menu system and control audio volume using it.
 # How do I make it look better?
@@ -29,8 +28,7 @@ Which will install the following themes: <br>
 - Orchis GTK theme
 - Layan GTK theme
 - Papirus icon theme
-- Tela circle icon theme 
-- Along with my custom desktop layout and settings <br>
+- Tela circle icon theme <br>
 You should see a folder called "themes-termux-xfce" which has the required files for the themes.
 # Uninstallation
 - Run: 
