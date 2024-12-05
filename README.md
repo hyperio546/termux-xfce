@@ -1,6 +1,6 @@
 # **Updates:**
 - Updated dependencies and tested recently on my new phone!
-- Currently working on premade xfce config for a more Windows-like experience  
+- Currently working on premade xfce config for a more Windows-like experience and Termux-X11.
 # Termux XFCE <br>
 I give you...Termux with a GUI! <br>
 Termux does support a GUI (like GNOME, KDE, XFCE, LXDE, LXQT) <br>
